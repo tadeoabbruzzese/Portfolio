@@ -1,5 +1,6 @@
 import React from 'react';
 import { Award, ExternalLink, Github, Linkedin, Mail, Code2, Server, Database, FileJson, Layout, Blocks, Globe, Smartphone, ShoppingCart } from 'lucide-react';
+import Tower from './public/tower.png'
 import imagenPerfil from './public/pfp.jpg';
 import cHtml from './public/certificados/Certificado-Desarrollo-Web-con-HTML-EducaciónIT.jpeg';
 import cMWeb from './public/certificados/Certificado-Maquetador-Web-Avanzado-EducaciónIT.jpeg';
@@ -38,20 +39,20 @@ interface Project {
 const projects: Project[] = [
   {
     title: "Pescar 20 Años",
-    description: "A full-stack e-commerce platform built with React, Node.js, and MongoDB. Features include user authentication, product catalog, shopping cart, and secure checkout.",
+    description: "A website created for the Pescar Foundation's 20th anniversary. It includes a quiz, a startup section, and a memory test. The technologies used were: React, Tailwind CSS, MariaDB, ExpressJS, NodeJS, and JavaScript.",
     image: Pescar,
-    technologies: ["React", "Node.js", "MongoDB", "Express"],
+    technologies: ["React.js", "Express.js", "Node.js", "MariaDB"],
     liveLink: "https://fundacion-pescar20aniversario.vercel.app/",
     githubLink: "#"
   },
-  // {
-  //   title: "Pescar 20 Años",
-  //   description: "A full-stack e-commerce platform built with React, Node.js, and MongoDB. Features include user authentication, product catalog, shopping cart, and secure checkout.",
-  //   image: Pescar,
-  //   technologies: ["React", "Node.js", "MongoDB", "Express"],
-  //   liveLink: "https://fundacion-pescar20aniversario.vercel.app/",
-  //   githubLink: "#"
-  // },
+  {
+    title: "Tower Of Fantasy Wiki",
+    description: "A website from Tower of Fantasy resource built with React and TypeScript for a dynamic user experience. Leveraging Supabase for seamless data management and styled with PostCSS for a modern look and feel.",
+    image: Tower,
+    technologies: ["React", "TypeScript", "Supabase", "Node.js", "PostCSS"],
+    liveLink: "https://tower-of-fantasy-project.vercel.app/",
+    githubLink: "https://github.com/tadeoabbruzzese/TowerOfFantasy-Project"
+  },
   // {
   //   title: "Pescar 20 Años",
   //   description: "A full-stack e-commerce platform built with React, Node.js, and MongoDB. Features include user authentication, product catalog, shopping cart, and secure checkout.",
