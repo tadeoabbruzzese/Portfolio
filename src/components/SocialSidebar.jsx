@@ -9,7 +9,7 @@ export default function SocialSidebar() {
   const socials = [
     {
       icon: <Instagram className="w-7 h-7" />,
-      href: "https://instagram.com/tadeoabbruzzese",
+      href: "https://www.instagram.com/tadeooo___/",
       label: "Instagram",
     },
     {
@@ -19,7 +19,7 @@ export default function SocialSidebar() {
     },
     {
       icon: <Twitter className="w-7 h-7" />,
-      href: "https://twitter.com/tadeoabbruzzese",
+      href: "https://twitter.com/TAbrruzzes50018",
       label: "Twitter",
     },
   ];
