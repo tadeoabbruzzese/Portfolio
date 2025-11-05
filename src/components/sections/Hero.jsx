@@ -26,7 +26,7 @@ export default function Hero() {
 
         <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
           <a
-            href="/projects"
+            href="#projects"
             className="inline-flex items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-brand-violet to-brand-cyan text-white font-semibold px-6 py-3 hover:opacity-90 transition-opacity"
           >
             Ver proyectos
